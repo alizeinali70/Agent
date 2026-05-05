@@ -1,0 +1,19 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+    <File Path="NuGet.config" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Agent.Api/Agent.Api.csproj" Id="1fb51d1e-c984-45eb-9b51-ada1bdfb9e01" />
+    <Project Path="src/Agent.Application/Agent.Application.csproj" Id="d5ead0fd-3c42-4b00-ad01-f2549d4b684c" />
+    <Project Path="src/Agent.Contracts/Agent.Contracts.csproj" Id="444df3df-00ac-42e0-b6fa-8f272f99b000" />
+    <Project Path="src/Agent.Infrastructure/Agent.Infrastructure.csproj" Id="db9478f6-595e-4793-bf1f-3fda5a4d61fc" />
+    <Project Path="src/Agent.Worker/Agent.Worker.csproj" Id="407d1bae-4a9d-40f4-abe3-83bf578df20a" />
+    <Project Path="tests/Agent.Domain/Agent.Domain.csproj" Id="15a2e239-902e-4958-b2e5-76c690ef5d1b" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Agent.IntegrationTests/Agent.IntegrationTests.csproj" Id="17f7d954-ed2f-4053-8671-abd75a9a5d2f" />
+    <Project Path="tests/Agent.UnitTests/Agent.UnitTests.csproj" Id="d9e8d699-0402-4db2-98eb-ba00cadebdbb" />
+  </Folder>
+</Solution>
