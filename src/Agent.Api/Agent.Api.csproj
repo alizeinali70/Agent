@@ -2,10 +2,14 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+    <PackageReference Include="OpenAI" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\Agent.Application\Agent.Application.csproj" />
+    <ProjectReference Include="..\Agent.Infrastructure\Agent.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
